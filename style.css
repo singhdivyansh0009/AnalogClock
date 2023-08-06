@@ -1,0 +1,148 @@
+body{
+    background: rgb(0, 0, 0);
+    margin: 0;
+    min-height:100vh;
+    min-width:100vw;
+}
+h1{
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+.container{
+  color: #ffffff;
+  font: 20px bold;
+  display: flex;
+  position: relative;
+  left: 30%;
+  top: 30%;
+  width: 670px;
+  height: 449px;
+  flex-shrink: 0;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+#c1{
+    background: rgba(0, 255, 255, 0.662);
+    z-index: 1;
+    width: 283px;
+    height: 283px;
+    border-radius: 283px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+#c2{
+    background: rgb(0, 0, 0);
+    z-index: 2;
+    width: 240px;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 283px;
+    position: absolute;
+    left: 8%;
+    top: 8%;
+}
+#c2 span{
+  color: aqua;
+}
+#centre{
+z-index: 3;
+width: 20px;
+height: 20px;
+background:aqua;
+border-radius: 100%;
+position: absolute;
+left: 45%;
+top: 45%;
+flex-shrink: 0;
+}
+.arrow{
+z-index: 2;
+position: absolute;
+flex-shrink: 0;
+transform-origin: bottom;
+}
+#hour{
+  width: 4px;
+  height: 60px;
+  background:rgb(255, 0, 0);
+  left: 48.5%;
+  top: 26%;
+  border-radius: 20%;
+}
+#minute{
+  width: 4px;
+  height: 70px;
+  background:rgb(8, 0, 255);
+  left: 48.5%;
+  top: 22%;
+  border-radius: 20%;
+}
+#second{
+  width: 2px;
+  height: 80px;
+  left: 49%;
+   top: 15%;
+  background:rgb(255, 0, 212);
+}
+#twelve{
+    position: absolute;
+    left: 45%;
+}
+#six{
+  position: absolute;
+  left: 47%;
+  top: 90%;
+}
+#nine{
+  position: absolute;
+  left: 5%;
+  top:45%;
+}
+#three{
+  position: absolute;
+  left: 95%;
+  top: 45%;
+}
+#one{
+  position: absolute;
+  left: 70%;
+  top: 7%;
+}
+#two{
+  position: absolute;
+  left: 85%;
+  top: 25%;
+}
+#eleven{
+  position: absolute;
+  left: 22%;
+  top: 7%;
+}
+#ten{
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+#seven{
+  position: absolute;
+  left: 23%;
+  top: 83%;
+}
+#eight{
+  position: absolute;
+  left: 10%;
+  top: 65%;
+}
+#four{
+  position: absolute;
+  left: 85%;
+  top: 65%;
+}
+#five{
+  position: absolute;
+  left: 70%;
+  top: 83%;
+}
